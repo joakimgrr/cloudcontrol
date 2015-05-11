@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Cloudcontrol",
+  "description": "Play and pause soundcloud without searching for the right tab",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon-pause.png"
+    //"default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*", 
+    "https://*/*"
+  ],
+  "background": {
+    "scripts": ["script.js"],
+    "persistent": false
+  }
+}
